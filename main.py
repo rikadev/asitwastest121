@@ -11,7 +11,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # Telegram Bot Information
-BOT_TOKEN = '7158285065:AAEpP7JqcAF_znIXyRUKnkPkOpxt5aGLh-M'
+BOT_TOKEN = '7124623188:AAGQec49E1QbleRnvJEHawbsUpDTCrre-4s'
 bot = Bot(token=BOT_TOKEN)
 
 # API Information
@@ -127,9 +127,9 @@ def index():
 if __name__ == "__main__":
     # Define multiple batch-chat pairs
     batch_chat_pairs = [
-        (100, -1002114663797),  # Example: Batch ID and Chat ID
-        (99, -1002169361625),
-        (119, -1002169361625),
+        (100, -1002420570398),  # Example: Batch ID and Chat ID
+        (99, -1002420570398),
+        (119, -1002420570398),
         # Add more batch-chat pairs as needed
     ]
     # Start checking for new links in a separate thread
